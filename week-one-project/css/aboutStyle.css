@@ -1,0 +1,181 @@
+main {
+  font-family: 'Merriweather', serif;
+  font-weight: lighter;
+}
+p{
+  color: #131511;
+}
+.mainHeader{
+  font-size: 4.5em;
+  margin-bottom: 5%;
+  margin-top: 5%;
+  font-weight: lighter;
+}
+.subHeader {
+  font-weight: lighter;
+}
+main p {
+  font-size: 1.5em;
+  line-height: 150%;
+
+}
+nav {
+  width: 100%;
+  height: 70px;
+  position: fixed;
+  background-color: #FFFFFF;
+  z-index: 1;
+  margin-left: 0;
+  margin-top: -1%;
+  font-family: 'Roboto', sans-serif;
+}
+
+.nav-row {
+  display: flex;
+  justify-content: space-around;
+  padding: 0;
+  height: 70px;
+  margin: 0;
+  margin-left: 30%;
+  margin-right: 30%;
+
+}
+.nav-item {
+  list-style-type: none;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-transform: uppercase;
+  /*border-style: solid;
+  border-color: black;
+  border-width: 1px;*/
+  height: 70px;
+}
+.nav-item a {
+  color: #2B2F26;
+}
+.nav-item a:hover {
+  color: #CD5D67;
+}
+.nav-item a.active {
+  color: #968772;
+}
+
+.home-logo {
+  background-image: url("../images/bent-creek-logo.png");
+  background-size: contain;
+  height: 60px;
+  width: 60px;
+  float: left;
+  margin-top: .5%;
+  z-index: 1;
+}
+main {
+  background-color: #F2F1E8;
+  padding-top: 70px;
+  width: 100%;
+}
+.mainHeader {
+  text-align: center;
+  width: 100%;
+}
+
+#top_content , #middle_content, #bottom_content {
+  padding-left: 15%;
+  padding-right: 15%;
+}
+#pic1 {
+  background-image: url("../images/birdhouse.jpg");
+  height: 120px;
+  width: 160px;
+  background-size: contain;
+  background-repeat: no-repeat;
+  float: left;
+  margin-right: 4%;
+  margin-bottom: 2%;
+}
+#link {
+  color: #968772;
+}
+#link:hover {
+  color: #967343;
+}
+blockquote {
+  font-size: 1.25em;
+  font-style: italic;
+  border-left: .1em solid #968772;
+  margin-left: 0;
+  padding-left: 3em;
+  font-weight: lighter;
+}
+
+#pic_divider {
+  text-align: center;
+  background-image: url("../images/background-3.jpg");
+  height: 320px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.RoomToGrow {
+  color: white;
+  font-size: 4em;
+}
+#paragraph_pic {
+  display: flex;
+}
+#pic_and_caption {
+  display: flex;
+  flex-direction: column;
+}
+#pic {
+  background-image: url("../images/background-1.jpg");
+  height: 120px;
+  width: 160px;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+#middle_content {
+  margin-top: 4%;
+}
+#caption {
+  margin-top: 0;
+  font-size: 1em;
+}
+#p3 {
+  margin-top: 0;
+}
+#bottom_content {
+  padding-bottom: 5%;
+}
+table {
+  border-collapse: collapse;
+  width: 85%;
+}
+tr {
+  height: 3em;
+}
+td {
+  border-style: solid;
+  border-color: black;
+  border-width: thin;
+  padding-left: 3%;
+  font-size: 1.25em;
+}
+.th {
+  text-align: center;
+  padding-left: 0;
+}
+tr:nth-child(even) {
+  background-color: #F7EDDB;
+}
+footer {
+  background-color: #323B31;
+  color: white;
+  padding-top: 2%;
+  padding-bottom: 2%;
+  padding-left: 2%;
+}
